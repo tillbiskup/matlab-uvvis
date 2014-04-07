@@ -61,15 +61,8 @@ function varargout = UVVISinfo(varargin)
 % The place to centrally manage the revision number and date is the file
 % "Contents.m" in the root directory of the UV/Vis toolbox.
 %
-% THE VALUES IN THAT FILE SHOULD ONLY BE CHANGED BY THE OFFICIAL MAINTAINER
-% OF THE TOOLBOX!
-%
-% As the "ver" command works not reliably, as it works only in case the
-% toolbox is on the Matlab(r) search path, we parse this file here
-% manually.
-%
 % Additional information about the maintainer, the URL, etcetera, are
-% stored below. Again:
+% stored below.
 %
 % THESE VALUES SHOULD ONLY BE CHANGED BY THE OFFICIAL MAINTAINER OF THE
 % TOOLBOX!
