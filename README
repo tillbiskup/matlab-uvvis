@@ -1,0 +1,12 @@
+matlab-uvvis -- functions for handling UV/Vis (absorption) data
+
+(c) 2014, Deborah Meyer
+(c) 2014, Till Biskup
+All rights reserved.
+
+For detailed licensing information see the file "COPYING" in the same directory.
+
+PURPOSE:
+
+Importing, analysing, plotting and exporting optical absorption data of a variety of standard absorption (UV/Vis) spectrometers. 
+
