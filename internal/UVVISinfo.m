@@ -101,10 +101,17 @@ info.path = path(1:end-9);
 
 % WARNING: This code is supposed to work eventually, once commonInfo got
 % fixed appropriately. Don't forget to remove this comment afterwards!
-if nargout
-    varargout{1} = commonInfo(info,varargin{1});
+if nargin
+    command = varargin{1};
+elseif nargout
+    command = 'structure';
 else
-    commonInfo(info);
+    command = 'display';
+end
+if nargout
+    varargout{1} = commonInfo(info,command);
+else
+    commonInfo(info,command)
 end
 
 end % End of main function
