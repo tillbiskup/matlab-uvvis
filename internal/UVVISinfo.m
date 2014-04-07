@@ -99,8 +99,6 @@ info.description = ...
 [path,~,~] = fileparts(mfilename('fullpath'));
 info.path = path(1:end-9);
 
-% WARNING: This code is supposed to work eventually, once commonInfo got
-% fixed appropriately. Don't forget to remove this comment afterwards!
 if nargin
     command = varargin{1};
 elseif nargout
