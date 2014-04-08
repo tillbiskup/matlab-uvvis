@@ -1,2 +1,2 @@
 % UV/Vis Toolbox
-% Version 0.0.2 07-Apr-2014
+% Version 0.0.3 08-Apr-2014
