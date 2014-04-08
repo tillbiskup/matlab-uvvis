@@ -90,7 +90,7 @@ info.description = ...
 
 % Get install directory
 [path,~,~] = fileparts(mfilename('fullpath'));
-info.path = path(1:end-9);
+info.path = path(1:end-length('/internal'));
 
 if nargin
     command = varargin{1};
