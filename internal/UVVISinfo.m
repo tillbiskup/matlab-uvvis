@@ -52,11 +52,11 @@ function varargout = UVVISinfo(varargin)
 %   modules - cell array of structs
 %             Struct fields: maintainer, url, bugtracker, vcs, version, path
 %
-% See also VER
+% SEE ALSO ver, commonInfo
 
 % (c) 2014, Deborah Meyer
 % (c) 2014, Till Biskup
-% 2014-04-07
+% 2014-04-08
 
 % The place to centrally manage the revision number and date is the file
 % "Contents.m" in the root directory of the UV/Vis toolbox.
